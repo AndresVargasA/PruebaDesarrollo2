@@ -1,0 +1,41 @@
+.slider{
+    height: 350px;
+}
+.slider img{
+    height: 100%;
+    width: 100%;
+}
+.flechas-slider{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.flecha{
+    width: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bolder;
+    background: white;
+    color: var(--verde);
+    box-shadow: 1px 2px 5px grey;
+
+
+}
+
+.izquierda{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.derecha{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}

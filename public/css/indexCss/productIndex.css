@@ -1,0 +1,97 @@
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xd{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 300px;
+    width: 700px;
+    /* border: 2px solid red; */
+    box-shadow: 1px 2px 10px grey;
+    /* overflow: hidden; */
+    margin-top: 20px;
+}
+.xd img{
+    height: 60%;
+    width: 100%;
+}
+.divProducto{
+    /* border: 2px solid red; */
+    /* overflow: hidden; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.divInfoProducto{
+    display: grid;
+    grid-template-rows: repeat(60%, 40%);
+    padding-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.desc{
+    font-weight: bold;
+    font-size: 30px;
+}
+.price{
+    margin-top: -15px;
+    font-weight: bold;
+    color: var(--verde);
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.btns-compra{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+    /* border: 2px solid green */
+}
+
+.divAddCart{
+    /* border: 2px solid red */
+    margin-right: 20px;
+}
+
+.cantidad{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 10px
+}
+
+.cantidad *{
+    border-radius: 100px;
+    border: 1px solid green;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.addCart{
+    background-color: var(--verde);
+    border: none;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+
+}
